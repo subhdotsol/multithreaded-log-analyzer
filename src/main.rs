@@ -1,3 +1,7 @@
+mod log_generator;
+
+use log_generator::log_generator;
+
 fn main() {
-    println!("Hello, world!");
+    log_generator().unwrap();
 }
