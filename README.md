@@ -8,6 +8,9 @@ This project implements a highly efficient multithreaded log analysis tool writt
 
 Distributed systems, web servers, and application microservices generate massive volumes of diagnostic data. Parsing and analyzing these records sequentially often becomes a performance bottleneck. To address this challenge, the application processes the data concurrently, significantly reducing execution time. The project specifically tackles the complexities of sharing memory safely and dividing workloads evenly in a concurrent environment.
 
+## Output
+<img width="948" height="405" alt="Screenshot 2026-03-13 at 4 21 26 PM" src="https://github.com/user-attachments/assets/7fd97060-6229-4016-b78b-f64b6fe2510a" />
+
 ## Execution Workflow
 
 The application executes through a defined sequence of operations:
