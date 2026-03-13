@@ -4,7 +4,7 @@ use std::fs::File;
 use std::io::{BufWriter, Write};
 
 pub fn log_generator() -> Result<String, Box<dyn Error>> {
-    let levels = ["INFO", "WARN", "Error"];
+    let levels = ["INFO", "WARN", "ERROR"];
 
     let messages = [
         "Server started",
