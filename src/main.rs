@@ -14,7 +14,7 @@ struct ThreadStats {
 
 fn main() {
     // generate synthetic logs
-    log_generator().unwrap();
+    // log_generator().unwrap(); // run onces
 
     // Read entire file into memory
     // logs owns the string data
